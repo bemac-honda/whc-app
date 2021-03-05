@@ -11,8 +11,7 @@ import numpy as np
 import plotly.express as px
 import pandas as pd
 
-whc = pd.read_csv(
-    'c:/Users/t_honda/Desktop/world-heritage-cite/data/whc-sites-2019.csv')
+whc = pd.read_csv('data/whc-sites-2019.csv')
 r = whc['region_en'].unique()
 regions = np.append('All over the world', r)
 categories = whc['category'].unique()
