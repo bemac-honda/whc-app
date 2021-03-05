@@ -9,6 +9,8 @@ import numpy as np
 import plotly.express as px
 import pandas as pd
 
+import os
+
 whc = pd.read_csv(
     'c:/Users/t_honda/Desktop/Dash/data/whc-sites-2019.csv')
 r = whc['region_en'].unique()
